@@ -1,0 +1,1 @@
+using static younamespace.PrintExample;
