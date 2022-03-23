@@ -1,0 +1,16 @@
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.csproj.AssemblyReference.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.AssemblyInfoInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.AssemblyInfo.cs
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.csproj.CoreCompileInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\testpesawat.exe
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\testpesawat.deps.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\testpesawat.runtimeconfig.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\testpesawat.runtimeconfig.dev.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\testpesawat.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\ref\testpesawat.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\bin\Debug\net5.0\testpesawat.pdb
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\ref\testpesawat.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.pdb
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testpesawat\obj\Debug\net5.0\testpesawat.genruntimeconfig.cache

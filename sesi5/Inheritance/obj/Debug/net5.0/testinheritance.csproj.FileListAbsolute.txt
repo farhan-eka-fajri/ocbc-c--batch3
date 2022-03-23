@@ -1,0 +1,16 @@
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.csproj.AssemblyReference.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.AssemblyInfoInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.AssemblyInfo.cs
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.csproj.CoreCompileInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\testinheritance.exe
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\testinheritance.deps.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\testinheritance.runtimeconfig.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\testinheritance.runtimeconfig.dev.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\testinheritance.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\ref\testinheritance.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\bin\Debug\net5.0\testinheritance.pdb
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\ref\testinheritance.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.pdb
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testinheritance\obj\Debug\net5.0\testinheritance.genruntimeconfig.cache

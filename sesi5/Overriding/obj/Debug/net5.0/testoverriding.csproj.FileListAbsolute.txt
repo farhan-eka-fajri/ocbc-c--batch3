@@ -1,0 +1,16 @@
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\testoverriding.exe
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\testoverriding.deps.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\testoverriding.runtimeconfig.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\testoverriding.runtimeconfig.dev.json
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\testoverriding.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\ref\testoverriding.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\bin\Debug\net5.0\testoverriding.pdb
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.csproj.AssemblyReference.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.AssemblyInfoInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.AssemblyInfo.cs
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.csproj.CoreCompileInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\ref\testoverriding.dll
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.pdb
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi5\testoverriding\obj\Debug\net5.0\testoverriding.genruntimeconfig.cache
