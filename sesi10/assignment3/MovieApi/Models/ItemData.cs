@@ -1,3 +1,4 @@
+using System;
 namespace MovieApi.Models{
 
     public class ItemData{
@@ -6,6 +7,6 @@ namespace MovieApi.Models{
         public string name { get; set; }
         public string genre { get; set; }
         public string duration { get; set; }
-        public string releaseDate { get; set; }
+        public DateTime releaseDate { get; set; }
     }
 }
