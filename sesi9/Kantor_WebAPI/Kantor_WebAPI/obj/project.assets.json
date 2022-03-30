@@ -1040,11 +1040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi9\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\ocbc-c--batch3\\sesi9\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
       "projectName": "Kantor_WebAPI",
-      "projectPath": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi9\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
+      "projectPath": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\ocbc-c--batch3\\sesi9\\Kantor_WebAPI\\Kantor_WebAPI\\Kantor_WebAPI.csproj",
       "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi9\\Kantor_WebAPI\\Kantor_WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\ocbc-c--batch3\\sesi9\\Kantor_WebAPI\\Kantor_WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\farha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1100,7 +1100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

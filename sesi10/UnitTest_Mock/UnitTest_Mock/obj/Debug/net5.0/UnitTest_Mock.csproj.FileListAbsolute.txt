@@ -1,0 +1,7 @@
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.AssemblyReference.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.AssemblyInfoInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.AssemblyInfo.cs
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.csproj.CoreCompileInputs.cache
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi10\UnitTest_Mock\UnitTest_Mock\obj\Debug\net5.0\UnitTest_Mock.MvcApplicationPartsAssemblyInfo.cache
