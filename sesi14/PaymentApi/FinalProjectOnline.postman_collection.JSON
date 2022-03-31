@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "453659ee-630c-4dbf-8b52-54e05a257d53",
+		"name": "FinalProjectOnline",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PaymentGet",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjI4MGE5Mzc4LTlkZTgtNDI1NC1hZDI3LTc4ZDRhYmQ3NmI4MyIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInN1YiI6InVzZXJAZXhhbXBsZS5jb20iLCJqdGkiOiJlZDZkZDcxNi1iYTU1LTQwODUtOTFhNS1hNjZhMzE1YTIzNzgiLCJuYmYiOjE2NDg2ODE3MzEsImV4cCI6MTY0ODY4MzUzMSwiaWF0IjoxNjQ4NjgxNzMxfQ.s7dSl0e2yddV2DHUPRMWLNfd6HiTbolXw6Dy8msyl9Q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/PaymentApi",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentApi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaymentPost",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjI4MGE5Mzc4LTlkZTgtNDI1NC1hZDI3LTc4ZDRhYmQ3NmI4MyIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInN1YiI6InVzZXJAZXhhbXBsZS5jb20iLCJqdGkiOiJlZDZkZDcxNi1iYTU1LTQwODUtOTFhNS1hNjZhMzE1YTIzNzgiLCJuYmYiOjE2NDg2ODE3MzEsImV4cCI6MTY0ODY4MzUzMSwiaWF0IjoxNjQ4NjgxNzMxfQ.s7dSl0e2yddV2DHUPRMWLNfd6HiTbolXw6Dy8msyl9Q",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"id\": 3,\r\n    \"cardOwnerName\": \"Andhika\",\r\n    \"cardNumber\": \"533564\",\r\n    \"expirationDate\": \"2024\",\r\n    \"securityCode\": \"quickguy\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/PaymentApi",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentApi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaymentPut",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjI4MGE5Mzc4LTlkZTgtNDI1NC1hZDI3LTc4ZDRhYmQ3NmI4MyIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInN1YiI6InVzZXJAZXhhbXBsZS5jb20iLCJqdGkiOiJlZDZkZDcxNi1iYTU1LTQwODUtOTFhNS1hNjZhMzE1YTIzNzgiLCJuYmYiOjE2NDg2ODE3MzEsImV4cCI6MTY0ODY4MzUzMSwiaWF0IjoxNjQ4NjgxNzMxfQ.s7dSl0e2yddV2DHUPRMWLNfd6HiTbolXw6Dy8msyl9Q",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 3,\r\n  \"cardOwnerName\": \"Pradana\",\r\n  \"cardNumber\": \"654321\",\r\n  \"expirationDate\": \"2021\",\r\n  \"securityCode\": \"lastofguy\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/PaymentApi/3",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentApi",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaymentDelete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjI4MGE5Mzc4LTlkZTgtNDI1NC1hZDI3LTc4ZDRhYmQ3NmI4MyIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInN1YiI6InVzZXJAZXhhbXBsZS5jb20iLCJqdGkiOiJlZDZkZDcxNi1iYTU1LTQwODUtOTFhNS1hNjZhMzE1YTIzNzgiLCJuYmYiOjE2NDg2ODE3MzEsImV4cCI6MTY0ODY4MzUzMSwiaWF0IjoxNjQ4NjgxNzMxfQ.s7dSl0e2yddV2DHUPRMWLNfd6HiTbolXw6Dy8msyl9Q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/PaymentApi/3",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentApi",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaymentGetWhere",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjI4MGE5Mzc4LTlkZTgtNDI1NC1hZDI3LTc4ZDRhYmQ3NmI4MyIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInN1YiI6InVzZXJAZXhhbXBsZS5jb20iLCJqdGkiOiJlZDZkZDcxNi1iYTU1LTQwODUtOTFhNS1hNjZhMzE1YTIzNzgiLCJuYmYiOjE2NDg2ODE3MzEsImV4cCI6MTY0ODY4MzUzMSwiaWF0IjoxNjQ4NjgxNzMxfQ.s7dSl0e2yddV2DHUPRMWLNfd6HiTbolXw6Dy8msyl9Q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/PaymentApi/1",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentApi",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthRegister",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"farhans\",\r\n  \"email\": \"farhans@example.com\",\r\n  \"password\": \"stringG@1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/AuthManagement/Register",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthLogin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"farhanekafajri@example.com\",\r\n  \"password\": \"farhanekaF@123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/AuthManagement/Login",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthRefresh",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImZkZmNkYzIwLTNkZGItNGEyMi04N2NmLWRkZmRmNTE1NGQxMCIsImVtYWlsIjoidXNlcjJAZXhhbXBsZS5jb20iLCJzdWIiOiJ1c2VyMkBleGFtcGxlLmNvbSIsImp0aSI6ImMyZTQxNzBiLWIxMmUtNDA2MS1iNGQ3LTExNzExNjEyNWE1YSIsIm5iZiI6MTY0ODYyNDIwMCwiZXhwIjoxNjQ4NjI2MDAwLCJpYXQiOjE2NDg2MjQyMDB9.CD7MmBi862izfUeBsmXVx4qEJAPpQFHHfrWOUEAcSis\",\r\n    \"refreshToken\": \"S3AFX3G8R9Y29AKP36QDCR0VB2Y6F1N1A6Aa1b09b7f-5584-423f-b522-42be15686c65\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://han-payment-api.herokuapp.com/api/AuthManagement/RefreshToken",
+					"protocol": "https",
+					"host": [
+						"han-payment-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"RefreshToken"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

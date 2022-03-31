@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi14\\PaymentApi\\TodoApp.csproj": {}
+    "C:\\Users\\farha\\OneDrive\\Desktop\\test\\ocbc-c--batch3\\sesi14\\PaymentApi\\TodoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi14\\PaymentApi\\TodoApp.csproj": {
+    "C:\\Users\\farha\\OneDrive\\Desktop\\test\\ocbc-c--batch3\\sesi14\\PaymentApi\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi14\\PaymentApi\\TodoApp.csproj",
+        "projectUniqueName": "C:\\Users\\farha\\OneDrive\\Desktop\\test\\ocbc-c--batch3\\sesi14\\PaymentApi\\TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi14\\PaymentApi\\TodoApp.csproj",
+        "projectPath": "C:\\Users\\farha\\OneDrive\\Desktop\\test\\ocbc-c--batch3\\sesi14\\PaymentApi\\TodoApp.csproj",
         "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farha\\OneDrive\\ocbc bootcamp\\C#\\sesi14\\PaymentApi\\obj\\",
+        "outputPath": "C:\\Users\\farha\\OneDrive\\Desktop\\test\\ocbc-c--batch3\\sesi14\\PaymentApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farha\\AppData\\Roaming\\NuGet\\NuGet.Config",
