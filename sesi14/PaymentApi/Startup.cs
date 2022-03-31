@@ -24,7 +24,6 @@ using Microsoft.AspNetCore.Identity;
 using MySql.Data;
 using MySql.EntityFrameworkCore;
 
-
 namespace PaymentApiApp
 {
     public class Startup
@@ -118,6 +117,9 @@ namespace PaymentApiApp
                 app.UseDeveloperExceptionPage();
 
             }
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PaymentApi v1"));

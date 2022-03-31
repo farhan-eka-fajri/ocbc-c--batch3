@@ -31,4 +31,4 @@ WORKDIR /app
 #COPY --from=publish /app/publish .
 COPY --from=publish /app/ .
 #ENTRYPOINT ["dotnet", "TodoAppTest.dll"]
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet PaymentApi.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet TodoApp.dll
