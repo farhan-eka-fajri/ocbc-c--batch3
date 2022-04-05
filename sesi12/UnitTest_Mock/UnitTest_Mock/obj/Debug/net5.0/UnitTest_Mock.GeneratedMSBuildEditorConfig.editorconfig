@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = UnitTest_Mock
-build_property.ProjectDir = C:\Users\farha\OneDrive\ocbc bootcamp\C#\sesi12\UnitTest_Mock\UnitTest_Mock\
+build_property.ProjectDir = c:\Users\farha\OneDrive\ocbcbootcamp\ocbc-c--batch3\sesi12\UnitTest_Mock\UnitTest_Mock\

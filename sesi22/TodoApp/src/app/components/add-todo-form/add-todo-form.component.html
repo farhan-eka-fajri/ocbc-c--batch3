@@ -1,0 +1,18 @@
+<form>
+    <div>
+        <input type="text"
+        name="inputTodo"
+        placeholder="Enter todo..."
+        class="form-control dynamicform" 
+        [(ngModel)]="inputTodo"
+        />
+
+        <input type="text"
+        value="submit"
+        class="btn btn-primary rightbtn"
+        (click)="addTodo()"
+        />
+
+    </div>
+
+</form>
