@@ -1,0 +1,8 @@
+.form-group {
+    display: inline-block;
+    display: flex;
+}
+
+.form-control {
+    padding-right: 100%;
+}

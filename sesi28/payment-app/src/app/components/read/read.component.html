@@ -1,0 +1,179 @@
+<div class=" class-bordered ">
+    <form *ngIf="createData.toggleCreate==true" class="form-signin " [formGroup]="createData.createForm" (ngSubmit)="createData.create() ">
+        <h3 class="h3 mb-3 font-weight-normal ">Please Fill In The Form</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Card Owner Name</h4>
+                </td>
+                <td>
+                    <div class="form-group mt-3 ">
+                        <input type="text " class="form-control " formControlName="cardOwnerName" placeholder="Jason M. " required>
+
+                    </div>
+                    <span style="color:red; " *ngIf="createData.cardOwnerName && createData.cardOwnerName.touched && createData.cardOwnerName.invalid ">
+                        Card owner name is required. At least fill in your first name.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Card Number</h4>
+                </td>
+                <td>
+                    <div class="form-group mt-3 ">
+                        <input type="text" class="form-control " formControlName="cardNumber" placeholder="0000 1111 2222 3333" required>
+                    </div>
+                    <span style="color:red; " *ngIf="createData.cardNumber && createData.cardNumber.touched && createData.cardNumber.invalid ">
+                        Card number is required. Fill in 16 digits of your card number with [1111 2222 3333 4444] format.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Exp Date</h4>
+                </td>
+                <td>
+                    <div class="form-group mt-3 ">
+                        <input type="text " class="form-control " formControlName="expirationDate" placeholder="MM/YY " required>
+
+                    </div>
+                    <span style="color:red; " *ngIf="createData.expirationDate && createData.expirationDate.touched && createData.expirationDate.invalid ">
+                        Expiration date is required with [MM/YY] format.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Security Code</h4>
+
+                </td>
+                <td>
+                    <div class="form-group mt-3 ">
+                        <input type="password" pattern="[0-9]*" inputmode="numeric" class="form-control " formControlName="securityCode" placeholder="000 " required>
+
+                    </div>
+                    <span style="color:red; " *ngIf="createData.securityCode && createData.securityCode.touched && createData.securityCode.invalid ">
+                        Security code is required. Fill in 3 digits with [000] format.
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td> <button [disabled]="!createData.createForm.valid " type="submit " class="btn btn-accent btn-sm ">Create</button>
+                </td>
+                <td> <button class="btn btn-error btn-sm " (click)=" createData.cancel() ">
+                    Cancel
+                </button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+<div class=" class-bordered ">
+    <form *ngIf="updateData.toggleUpdate==true " class="form-signin " [formGroup]="updateData.updateForm " (ngSubmit)="updateData.update(paymentDetailId) ">
+        <h3 class=" h3 mb-3 font-weight-normal ">Please Fill In The Form</h3>
+        <div *ngFor="let read of reads ">
+            <div *ngIf="read.paymentDetailId==paymentDetailId ">
+                <table>
+                    <tr>
+                        <td>
+                            <h4>Card Owner Name</h4>
+                        </td>
+                        <td>
+                            <div class=" form-group mt-3 ">
+                                <input type="text " [(ngModel)]="read.cardOwnerName " name="cardOwnerName " id="cardOwnerName " class="form-control " formControlName="cardOwnerName" placeholder="{{read.cardOwnerName}} " required>
+
+                            </div>
+                            <span style="color:red; " *ngIf=" updateData.cardOwnerName && updateData.cardOwnerName.touched && updateData.cardOwnerName.invalid ">
+                        Card owner name is required. At least fill in your first name.
+                    </span>
+                            <td class=" form-group mt-3 ">
+                                <input type="hidden" [(ngModel)]="read.paymentDetailId " name="paymentDetailId " id="paymentDetailId " class=" form-control " formControlName="PaymentDetailId" placeholder="{{read.paymentDetailId}} " readonly="readonly ">
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Card Number</h4>
+                        </td>
+                        <td>
+                            <div class="form-group mt-3 ">
+                                <input type="text" [(ngModel)]="read.cardNumber " name="cardNumber " id="cardNumber " class="form-control " formControlName="cardNumber" placeholder="{{read.cardOwnerName}} " required>
+
+                            </div>
+                            <span style="color:red; " *ngIf=" updateData.cardNumber && updateData.cardNumber.touched && updateData.cardNumber.invalid ">
+                        Card number is required. Fill in 16 digits of your card number with [1111 2222 3333 4444] format.
+                    </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Exp Date</h4>
+                        </td>
+                        <td>
+                            <div class="form-group mt-3 ">
+                                <input type="text " [(ngModel)]="read.expirationDate " name="expirationDate " id="expirationDate " class="form-control " formControlName="expirationDate" placeholder="{{read.expirationDate} " required>
+
+                            </div>
+                            <span style="color:red; " *ngIf=" updateData.expirationDate && updateData.expirationDate.touched && updateData.expirationDate.invalid ">
+                        Expiration date is required with [MM/YY] format. 
+                    </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Security Code</h4>
+
+                        </td>
+                        <td>
+                            <div class="form-group mt-3 ">
+                                <input type="password" pattern="[0-9]*" inputmode="numeric" name="securityCode " id="securityCode " class=" form-control " formControlName="securityCode" placeholder="*** " required>
+
+                            </div>
+                            <span style="color:red; " *ngIf=" updateData.securityCode && updateData.securityCode.touched && updateData.securityCode.invalid ">
+                        Security code is required. Fill in 3 digits with [000] format.
+                    </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <button [disabled]="!updateData.updateForm.valid " type="submit " class="btn btn-accent btn-sm ">Update</button>
+                        </td>
+                        <td> <button class="btn btn-error btn-sm " (click)=" updateData.cancel() ">
+                    Cancel
+                </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>
+<div class=" class-bordered ">
+    <button *ngIf="createData.toggleCreate==false && updateData.toggleUpdate==false " class="btn btn-info btn-sm " (click)="create() ">
+            Create
+        </button>
+    <table class="table w-full ">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Card Number</th>
+                <th>Expiration Date</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let read of reads ">
+                <td>{{read.cardOwnerName}}</td>
+                <td>{{read.cardNumber}}</td>
+                <td>{{read.expirationDate}}</td>
+                <td><button *ngIf="createData.toggleCreate==false && updateData.toggleUpdate==false" class="btn btn-error btn-sm " (click)="delete(read.paymentDetailId) ">
+                        Delete
+                    </button></td>
+                <td><button *ngIf="createData.toggleCreate==false && updateData.toggleUpdate==false" class="btn btn-warning btn-sm " (click)="edit(read.paymentDetailId) ">
+                        Edit
+                    </button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

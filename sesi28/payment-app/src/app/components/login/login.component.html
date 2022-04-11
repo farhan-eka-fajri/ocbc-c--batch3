@@ -1,0 +1,22 @@
+<div>
+    <div class="card-body">
+        <form class="form-signin" [formGroup]="loginForm" (ngSubmit)="logIn()">
+            <h3 class="h3 mb-3 font-weight-normal">Please Log In</h3>
+            <div class="form-group mt-3">
+                <h4>Email</h4>
+                <input type="email" style="color: black;" class="form-control" formControlName="email" placeholder="Enter email" required>
+                <span style="color: red;" *ngIf="email && email.touched && email.invalid">
+                    * Email is required. Must input email type.
+                </span>
+            </div>
+            <div class="form-group mt-3">
+                <h4>Password</h4>
+                <input type="password"  style="color:black" class="form-control" formControlName="password" placeholder="Password" required>
+                <span style="color:red;" *ngIf="password && password.touched && password.invalid">
+                    * Password is required. Minimum length is 5.
+                </span>
+            </div>
+            <button [disabled]="!loginForm.valid" type="submit" class="btn btn-accent">Log in</button>
+        </form>
+    </div>
+</div>
