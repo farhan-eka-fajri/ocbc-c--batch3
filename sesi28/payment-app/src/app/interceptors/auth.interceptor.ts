@@ -16,7 +16,9 @@ export class AuthInterceptor implements HttpInterceptor {
   constructor(private authService: AuthService, private router: Router) { }
 
   intercept(request: HttpRequest<any>, next: HttpHandler) {
+    // Ambil data dari AuthService
     const authToken = this.authService.getAuthorizationToken()
+    // Clone request, lalu isi Authorization sebagai salah satu HTTP Header
     request = request.clone({ setHeaders: { Authorization: `Bearer ${authToken}` } })
 
     return next.handle(request).pipe(catchError(err => {

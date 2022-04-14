@@ -48,7 +48,6 @@ export class ReadComponent implements OnInit {
     this.paymentDetailId = paymentDetailId;
     this.data = true;
     this.updateData.toggleUpdate = true;
-    // this.router.navigate(['/update', paymentDetailId]);
   }
   
 

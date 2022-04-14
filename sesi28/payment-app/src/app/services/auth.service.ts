@@ -9,8 +9,7 @@ import { User } from '../models/User';
   providedIn: 'root'
 })
 export class AuthService {
-  endpoint: string =
-    'http://localhost:5000/api';
+  endpoint: string = 'http://localhost:5000/api';
     headers = new HttpHeaders().set('Content-Type', 'application/json');
 
   constructor(private http: HttpClient, private router: Router) { }

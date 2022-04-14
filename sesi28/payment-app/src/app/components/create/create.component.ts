@@ -5,7 +5,6 @@ import { ItemDataService } from 'src/app/services/item-data.service';
 import { Location } from '@angular/common';
 import { ReadComponent } from '../read/read.component';
 import { NavbarService } from 'src/app/services/navbar.service';
-declare var jQuery: any;
 
 @Component({
   selector: 'app-create',
@@ -18,9 +17,9 @@ export class CreateComponent implements OnInit {
 
   createForm = new FormGroup({
     cardOwnerName: new FormControl('', [Validators.required, Validators.minLength(5)]),
-    cardNumber: new FormControl('', [Validators.required, Validators.minLength(19), Validators.maxLength(19),Validators.pattern('[0-9 ]*')]),
-    expirationDate: new FormControl('', [Validators.required, Validators.minLength(5), Validators.maxLength(5),Validators.pattern('[/0-9]*')]),
-    securityCode: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(3), Validators.pattern(/^-?(0|[1-9/]\d*)?$/)]),
+    cardNumber: new FormControl('', [Validators.required, Validators.minLength(19), Validators.maxLength(19)]),
+    expirationDate: new FormControl('', [Validators.required, Validators.minLength(5), Validators.maxLength(5)]),
+    securityCode: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(3)]),
   })
 
   submitted = false;

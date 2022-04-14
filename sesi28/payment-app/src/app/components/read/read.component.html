@@ -1,3 +1,4 @@
+<!-- create data  -->
 <div class=" class-bordered ">
     <form *ngIf="createData.toggleCreate==true" class="form-signin " [formGroup]="createData.createForm" (ngSubmit)="createData.create() ">
         <h3 class="h3 mb-3 font-weight-normal ">Please Fill In The Form</h3>
@@ -8,7 +9,7 @@
                 </td>
                 <td>
                     <div class="form-group mt-3 ">
-                        <input type="text " class="form-control " formControlName="cardOwnerName" placeholder="Jason M. " required>
+                        <input type="text " class="form-control " formControlName="cardOwnerName" placeholder="Farhan Eka " required>
 
                     </div>
                     <span style="color:red; " *ngIf="createData.cardOwnerName && createData.cardOwnerName.touched && createData.cardOwnerName.invalid ">
@@ -70,6 +71,7 @@
 
     </form>
 </div>
+<!-- update/edit data -->
 <div class=" class-bordered ">
     <form *ngIf="updateData.toggleUpdate==true " class="form-signin " [formGroup]="updateData.updateForm " (ngSubmit)="updateData.update(paymentDetailId) ">
         <h3 class=" h3 mb-3 font-weight-normal ">Please Fill In The Form</h3>
@@ -148,6 +150,8 @@
         </div>
     </form>
 </div>
+
+<!-- awal tampilan  -->
 <div class=" class-bordered ">
     <button *ngIf="createData.toggleCreate==false && updateData.toggleUpdate==false " class="btn btn-info btn-sm " (click)="create() ">
             Create

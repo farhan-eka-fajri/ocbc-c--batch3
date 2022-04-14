@@ -8,6 +8,14 @@ export const httpInterceptorProviders = [
   {
     provide: HTTP_INTERCEPTORS,
     useClass: AuthInterceptor,
-    multi: true ,
+    multi: true , // menandakan HTTP_INTERCEPTORS digunakan di dalam
+    // berbagai provider dalam bentuk array
+
+  // Interceptor ini berguna sekali ketika kita ingin melakukan authentication
+  // untuk satu service, pada module yang sama.
+
+  // Misal, pada Session26Module, terdapat interceptor httpInterceptorProviders,
+  // di mana provider ini akan "menangkap" semua request yang akan dijalankan
+  // oleh component di dalam module tersebut.
   },
 ];

@@ -33,9 +33,9 @@ export class UpdateComponent implements OnInit {
   updateForm = new FormGroup({
     PaymentDetailId:new FormControl(''),
     cardOwnerName: new FormControl('', [Validators.required, Validators.minLength(5)]),
-    cardNumber: new FormControl('', [Validators.required, Validators.minLength(19), Validators.maxLength(19),Validators.pattern('[0-9 ]*')]),
-    expirationDate: new FormControl('', [Validators.required, Validators.minLength(5), Validators.maxLength(5),Validators.pattern('[/0-9]*')]),
-    securityCode: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(3), Validators.pattern(/^-?(0|[1-9/]\d*)?$/)]),
+    cardNumber: new FormControl('', [Validators.required, Validators.minLength(19), Validators.maxLength(19)]),
+    expirationDate: new FormControl('', [Validators.required, Validators.minLength(5), Validators.maxLength(5)]),
+    securityCode: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(3)]),
   })
 
 

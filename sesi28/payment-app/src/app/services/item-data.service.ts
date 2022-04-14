@@ -7,12 +7,9 @@ import { catchError, map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ItemDataService {
-  endpoint: string =
-    'http://localhost:5000/api/PaymentDetails';
+  endpoint: string = 'http://localhost:5000/api/PaymentDetails';
 
   constructor(private http: HttpClient) { }
-
-  invokeDeleteFunction = new EventEmitter();
 
   getAll(): Observable<any> {
     return this.http.get(this.endpoint)
